@@ -1,0 +1,81 @@
+body{
+    user-select: none;
+}
+.container{
+    margin: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.res{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.escolha{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.play {
+    margin: 30px;
+    border: 1px solid;
+}
+.nomeplaycpu{
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+}
+.computador{
+    margin: 30px;
+    border: 1px solid;
+}
+.resultadoplay {
+    
+    font-size: 80px;
+    margin: 30px;
+    display: flex;
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(200, 201, 252);
+}
+.vs{
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: top;
+}
+.resultadopc {
+    font-size: 80px;
+    margin: 30px;
+    display: flex;
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(252, 200, 200);
+}
+
+.botao_ajuste {
+    display: flex;
+}
+.botao{
+    margin: 10px;
+    font-size: 80px;   
+
+}

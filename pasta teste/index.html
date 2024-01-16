@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style/html5reset-1.6.1.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <span class="res">RESULTADO <span id="vencedor"></span></span>
+        <div class="escolha">
+            <p class="nomeplaycpu">PLAYER 1
+            <span class="resultadoplay"></span>
+            </p>
+            <p class="vs">VS</p>
+            <p class="nomeplaycpu">
+            <span class="resultadopc"></span>PLAYER 2
+            </p>
+        </div>
+        <div class="botao_ajuste">
+            <div class="play">
+                <button onclick="pedraj()" class="botao jogador " id="pedra" >✊</button>
+                <button onclick="papelj()" class="botao jogador " id="papel" >✋</button>
+                <button onclick="tesouraj()" class="botao jogador " id="tesoura" >✌️</button>
+            </div>
+
+            <div class="computador">
+                <button class="botao cpu" id="pedra" >✊</button>
+                <button class="botao cpu" id="papel" >✋</button>
+                <button class="botao cpu" id="tesoura" >✌️</button>
+            </div>
+        </div>
+    </div>
+   <script src="src/script/app.js" defer ></script> 
+</body>
+</html>
